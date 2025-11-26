@@ -49,8 +49,8 @@
               "sourceMap": true,
               "fileReplacements": [
                 {
-                  "replace": "src/devtools/ngrx-devtools.ts",
-                  "with": "src/devtools/ngrx-devtools.development.ts"
+                  "replace": "src/app/ngrx-devtools.ts",
+                  "with": "src/app/ngrx-devtools.development.ts"
                 }
               ]
             }
