@@ -8,7 +8,6 @@ import { provideStore } from '@ngrx/store';
 import { routes } from './app.routes';
 import { counterReducer } from './store/counter.reducer';
 import { PlaylistEffects } from './store/playlist.effects';
-import { playList } from './store/playlist.reducer';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -17,7 +16,7 @@ export const appConfig: ApplicationConfig = {
     provideStore({
       counter: counterReducer,
       // song: songReducer,
-      playlist: playList
+      // playlist: playList
     }),
     provideEffects([PlaylistEffects]),
 
