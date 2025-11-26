@@ -45,8 +45,7 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all",
-              "baseHref": "/test-ngrx/"
+              "outputHashing": "all"
             },
             "development": {
               "optimization": false,

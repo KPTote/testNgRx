@@ -10,5 +10,9 @@ export const routes: Routes = [
   {
     path: 'table',
     component: TableTesterComponent
+  },
+  {
+    path: '**',
+    redirectTo: 'counter'
   }
 ];
