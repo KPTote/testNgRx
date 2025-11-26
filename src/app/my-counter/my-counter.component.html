@@ -1,0 +1,14 @@
+<button (click)="increment()">Increment</button>
+
+<div>Current Count: {{ count$ | async }}</div>
+
+<button (click)="decrement()">Decrement</button>
+
+<button (click)="reset()">Reset Counter</button>
+
+<h1>{{loading$ | async}}</h1>
+
+
+<!-- <h1>{{playlist | async | json}}</h1> -->
+
+<a routerLink="/table">Table</a>
